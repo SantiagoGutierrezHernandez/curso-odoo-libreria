@@ -11,6 +11,8 @@
     "category": "Custom Modules/Library",
     "depends": ["base"],
     "data": [],
-    "demo": [],
+    "demo": [
+        "demo/book_demo.xml"
+    ],
     "application": True,
 }
