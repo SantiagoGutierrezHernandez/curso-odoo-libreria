@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="book_list_action" model="ir.actions.act_window">
+            <field name="name">Lista de libros</field>
+            <field name="res_model">library.book</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Agregar un nuevo libro
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>
